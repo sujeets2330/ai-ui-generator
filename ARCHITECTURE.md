@@ -34,7 +34,7 @@
 │  │    • References component choices                    │  │
 │  └───────────────────────────────────────────────────────┘  │
 │                           ▼                                   │
-│                   Anthropic Claude API                       │
+│                   Groq API                       │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -125,7 +125,7 @@ User Prompt
 [SYSTEM PROMPT]
 "You are a UI planning expert..."
     ↓
-Claude API (claude-3-5-sonnet-20241022)
+   API (Use any LLM)
     ↓
 Structured Plan Output:
 - Layout structure (grid/flex/stack)
@@ -163,7 +163,7 @@ Plan + User Prompt
     ↓
 [SYSTEM PROMPT with component library]
     ↓
-Claude API
+(Any LLM ) API
     ↓
 React JSX Code
     ↓
@@ -200,7 +200,7 @@ Plan + Code + User Prompt
 [SYSTEM PROMPT]
 "Explain the design decisions..."
     ↓
-Claude API
+(ANY LLM) API
     ↓
 Clear explanation (2-3 sentences)
 ```
@@ -396,7 +396,7 @@ page.tsx (main)
 ### Backend
 ```
 route.ts (API)
-├── @anthropic-ai/sdk
+├── @groq-ai/sdk
 ├── Validation logic
 └── Error handling
 ```
@@ -466,8 +466,5 @@ handleCopyCode() flow
 5. Reset entire state
 ```
 
----
-
-**Architecture Version**: 1.0  
-**Last Updated**: 2024-12-15  
+---  
 **Status**: Production Ready
