@@ -21,13 +21,20 @@ An intelligent AI-powered UI generation system that converts natural language de
 - **UI Framework**: shadcn/ui components with Tailwind CSS
 - **Layout**: Resizable panels for chat, code editor, and preview
 
-### Backend (Node.js + Claude API)
+### Backend (Node.js + Groq API)
 - **Multi-Step Agent**:
   1. **Planner**: Analyzes user intent and creates structured plan
   2. **Generator**: Converts plan into validated React code
   3. **Explainer**: Provides clear reasoning for design choices
 - **Validation**: Component whitelist enforcement and code validation
 - **Error Handling**: Comprehensive error messages and fallbacks
+
+ ### Backend (Node.js + Groq API)
+
+- | AI | Groq (Llama 3.1 8B Instant) |
+- # Copy this and add your Groq API key
++ GROQ_API_KEY=gsk_your-groq-api-key-here
++ **Getting your API key:** Visit [console.groq.com](https://console.groq.com) 
 
 ##  Quick Start
 
