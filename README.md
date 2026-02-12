@@ -40,8 +40,8 @@ An intelligent AI-powered UI generation system that converts natural language de
 
 #### 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd ryze-ai-ui-generator
+git clone https://github.com/sujeets2330/ai-ui-generator.git
+cd ai-ui-generator
 ```
 
 #### 2. Install Dependencies
@@ -236,35 +236,6 @@ pnpm dev -- -p 3001
 4. **Reset App**: Click Reset button to start fresh
 5. **Check API**: Verify your  API key is valid
 
-##  Deployment
-
-### Deploy to Vercel
-```bash
-# Install Vercel CLI
-npm install -g vercel
-
-# Deploy
-vercel
-
-# Add environment variable in dashboard
-# Settings → Environment Variables
-# Add: API_KEY=your-key
-```
-
-### Deploy to Other Platforms
-
-#### Netlify
-1. Connect GitHub repository
-2. Set build command: `pnpm build`
-3. Set publish directory: `.next`
-4. Add environment variable in site settings
-
-#### Railway, Render, or Fly.io
-1. Connect repository
-2. Set `NODE_VERSION=18`
-3. Add build command: `pnpm build`
-4. Set start command: `pnpm start`
-5. Add `API_KEY` in environment variables
 
 ##  Technology Stack
 
