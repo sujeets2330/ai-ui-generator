@@ -1,6 +1,6 @@
 # Ryze AI UI Generator
 
-An intelligent AI-powered UI generation system that converts natural language descriptions into working UI code with live preview. Built with Next.js frontend and Node.js backend.
+An intelligent AI-powered UI generation system that converts natural language descriptions into working UI code with live preview.
 
 ##  Features
 
