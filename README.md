@@ -2,7 +2,7 @@
 
 An intelligent AI-powered UI generation system that converts natural language descriptions into working UI code with live preview.
 
-[Live Checkout Here :] (https://ai-ui-generator-kappa.vercel.app/)
+[Live Checkout Here :](https://ai-ui-generator-kappa.vercel.app/)
 
 ##  Features
 
